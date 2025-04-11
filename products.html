@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff;
+    }
+    .navbar {
+      background-color: #1f2a64;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+    }
+    .navbar .logo {
+      font-size: 1.8em;
+      font-family: cursive;
+    }
+    .navbar nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+    .search-bar input {
+      padding: 0.4em;
+      border-radius: 5px;
+      border: none;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .page-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 2em;
+      text-align: center;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2em;
+      padding: 2em;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 12px 20 px black(0,0,0,0.12);
+    }
+    .product-card {
+      border: 1px solid #ccc;
+      padding: 1em;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 300px; /* Set a fixed height for all images */
+      object-fit: cover; /* Ensure images cover the area without distortion */
+    }
+
+    .price {
+      font-weight: bold;
+      margin-top: 1em;
+    }
+
+    .product-name {
+      margin: 0.5em 0 1em;
+    }
+
+    .add-btn {
+      background-color: #5a27a8;
+      color: white;
+      border: none;
+      padding: 0.6em;
+      width: 100%;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="aestiloo.jpeg" height="100" width="100" align="center">
+    <div class="logo">Aestiloo</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about us.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="offers.html">Offers</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+    </div>
+  </div>
+  <h2>Our Products</h2>
+
+  <div class="product-grid">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <img src="tee.png" alt="Unisex Graphic Tee">
+      <p class="price">Rs. 2,085</p>
+      <p class="product-name">Unisex Graphic Tee</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <img src="pant.png" alt="Cargo Jeans">
+      <p class="price">Rs. 2,408</p>
+      <p class="product-name">Cargo Jeans</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <img src="tops.png" alt="Graphic Tops">
+      <p class="price">Rs. 1,035</p>
+      <p class="product-name">Graphic tops</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <img src="cors.jpg" alt="Format Corset">
+      <p class="price">Rs. 987</p>
+      <p class="product-name">Format Corset</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <img src="skirt.jpg" alt="Red IT Skirt">
+      <p class="price">Rs. 849</p>
+      <p class="product-name">Red IT Skirt</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <img src="dress.jpg" alt="Satin Dress">
+      <p class="price">Rs. 786</p>
+      <p class="product-name">Satin Dress</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+     <!-- Product 7 -->
+     <div class="product-card">
+      <img src="jacket.jpg" alt="Satin Dress">
+      <p class="price">Rs. 4,086</p>
+      <p class="product-name">Jacket</p>
+      <button class="add-btn">Add to Cart</button>
+    </div>
+
+      <!-- Product  -->
+      <div class="product-card">
+        <img src="Gloves.png" alt="Gloves">
+        <p class="price">Rs. 275</p>
+        <p class="product-name">Gloves</p>
+        <button class="add-btn">Add to Cart</button>
+      </div>
+
+  </div>
+  <footer>
+    <p>&copy; 2025 Aestiloo. All rights reserved.</p>
+    <div class="social-links">
+        <a href="Facebook.jpg" target="_blank"><img src="Facebook.jpg"Facebook height="10" width="10"></a>
+        <a href="instagram.jpg" target="_blank"><img src="instagram.jpg" alt="Instagram" height="10" width="10"></a>
+        <a href="twitter.jpg" target="_blank"><img src="twitter.jpg" alt="Twitter" height="10" width="10"></a>
+    </div>
+    </div>
+</footer>
+</body>
+<script src="products.js"></script>
+</html>
