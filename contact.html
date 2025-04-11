@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8e8e8;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background-color: #1f2a64;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em;
+    }
+    .navbar .logo {
+      font-size: 1.8em;
+      font-family: cursive;
+    }
+    .navbar nav a {
+      color: white;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+    .page-container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 2em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    .subtitle {
+      font-size: 1.1em;
+      margin-bottom: 2em;
+    }
+
+    .form-section {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      flex-wrap: wrap;
+    }
+
+    .form-box, .contact-box {
+      background-color: #e0d8f7;
+      padding: 2em;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .form-box h3, .contact-box h3 {
+      margin-bottom: 1em;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 0.6em 0;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 1em;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    button {
+      background-color: #cce0f7;
+      border: 1px solid #999;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+
+    .contact-box {
+      text-align: left;
+    }
+
+    .contact-box p {
+      margin: 1em 0;
+    }
+
+    .contact-box i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <img src="aestiloo.jpeg" height="100" width="100" align="center">
+    <div class="logo">Aestiloo</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about us.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="offers.html">Offers</a>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search" />
+    </div>
+  </div>
+  <div class="container" align="center">
+    <h2>Contact Us</h2>
+    <p class="subtitle">Have questions? Reach out to us, and we'll get back to you as soon as possible.</p>
+
+    <div class="form-section">
+      <!-- Message Form -->
+      <div class="form-box">
+        <h3>Send us a Message</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="text" placeholder="Subject" required>
+          <textarea placeholder="Your your queries here" required></textarea>
+          <button type="submit">Submit Message</button>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-box">
+        <h3>Contact Details</h3>
+        <p>📍 Kathmandu, Nepal</p>
+        <p>📞 +977 98747654643</p>
+        <p>📧 Aestiloo.np@gmail.com</p>
+        <p>🕒 Sunday - Friday: 7AM to 9PM</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Aestiloo. All rights reserved.</p>
+    <div class="social-links">
+        <a href="Facebook.jpg" target="_blank"><img src="Facebook.jpg"Facebook height="10" width="10"></a>
+        <a href="instagram.jpg" target="_blank"><img src="instagram.jpg" alt="Instagram" height="10" width="10"></a>
+        <a href="twitter.jpg" target="_blank"><img src="twitter.jpg" alt="Twitter" height="10" width="10"></a>
+    </div>
+    </div>
+</footer>
+  <script src="contact.js"></script>
+</body>
+</html>
